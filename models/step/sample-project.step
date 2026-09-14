@@ -1,0 +1,12 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION(('Placeholder STEP file for Sample Project'),'2;1');
+FILE_NAME('sample-project.step','2026-09-12T00:00:00',('Ryan Faraji'),(''),
+  'Placeholder','Placeholder','');
+FILE_SCHEMA(('AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'));
+ENDSEC;
+DATA;
+/* This is a placeholder file. Replace it with the real STEP export      */
+/* from your CAD software (SolidWorks, Fusion 360, etc.) for this part.  */
+ENDSEC;
+END-ISO-10303-21;

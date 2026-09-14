@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ryan Faraji — Mechanical Engineering Portfolio</title>
+<meta name="description" content="Mechanical engineering portfolio of Ryan Faraji, ME student at Purdue University." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo" href="#top">RF</a>
+    <nav class="site-nav">
+      <a href="#work">Work</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section id="top" class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-content">
+        <p class="eyebrow" id="hero-eyebrow"><!-- rendered by main.js --></p>
+        <h1 id="hero-name"><!-- rendered by main.js --></h1>
+        <p class="hero-bio" id="hero-bio"><!-- rendered by main.js --></p>
+        <div class="hero-links">
+          <a id="hero-resume-link" href="#" target="_blank" rel="noopener" class="btn btn-primary">Resume (PDF)</a>
+          <a id="hero-linkedin-link" href="#" target="_blank" rel="noopener" class="btn btn-linkedin">LinkedIn</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img id="hero-photo-img" src="" alt="" />
+      </div>
+    </div>
+  </section>
+
+  <section id="work" class="section reveal">
+    <div class="wrap">
+      <h2 class="section-title">Work &amp; Experience</h2>
+      <div id="experience-list" class="experience-list"><!-- rendered by main.js --></div>
+    </div>
+  </section>
+
+  <section id="projects" class="section reveal">
+    <div class="wrap">
+      <h2 class="section-title">Projects</h2>
+      <div id="projects-list" class="projects-list"><!-- rendered by main.js --></div>
+    </div>
+  </section>
+
+</main>
+
+<footer id="contact" class="site-footer">
+  <div class="wrap">
+    <p class="footer-contact">Let's talk — <a id="footer-email-link" href="#"><!-- rendered by main.js --></a></p>
+    <p class="copyright">&copy; <span id="year"></span> <span id="footer-name"><!-- rendered by main.js --></span></p>
+  </div>
+</footer>
+
+<!-- Lightbox for project photo galleries -->
+<div id="lightbox" class="lightbox" hidden>
+  <button class="lightbox-close" aria-label="Close">&times;</button>
+  <div class="lightbox-media">
+    <img id="lightbox-img" src="" alt="" />
+    <p id="lightbox-caption" class="lightbox-caption" hidden></p>
+  </div>
+</div>
+
+<!-- Three.js (classic global build) for the in-browser STL viewer -->
+<script src="https://unpkg.com/three@0.128.0/build/three.min.js"></script>
+<script src="https://unpkg.com/three@0.128.0/examples/js/loaders/STLLoader.js"></script>
+<script src="https://unpkg.com/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+
+<script src="js/site.js"></script>
+<script src="js/projects.js"></script>
+<script src="js/experience.js"></script>
+<script src="js/stl-viewer.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
