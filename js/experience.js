@@ -4,29 +4,22 @@
  */
 const EXPERIENCE = [
   {
-    "role": "Project Lead",
-    "org": "Purdue Formula SAE / Solar Racing / Design Team (placeholder)",
-    "dates": "2025 — Present",
+    "role": "Structures Team Member",
+    "org": "BoilerSub",
+    "dates": "November 2024 - Present",
     "bullets": [
-      "Replace with a real bullet about your role on the team.",
-      "Second bullet — design, test, or manufacturing contribution."
+      "Led the mechanical design and prototyping of the torpedo system in NX and SolidWorks for an Autonomous Underwater Vehicle competing in an international robotics competition",
+      "Used FEA and CFD to evaluate torpedo performance and collaborated with teammates to optimize mechanical components for underwater performance"
     ]
   },
   {
-    "role": "Manufacturing Engineering Intern",
-    "org": "Placeholder Company",
-    "dates": "Summer 2026",
+    "role": "Intern",
+    "org": "Layered Materials & Structures Lab",
+    "dates": "May 2026 - July 2026",
     "bullets": [
-      "Replace with a real bullet — quantify the impact where you can.",
-      "Second bullet describing a tool, process, or result."
-    ]
-  },
-  {
-    "role": "B.S. Mechanical Engineering",
-    "org": "Purdue University",
-    "dates": "Expected 2028",
-    "bullets": [
-      "Relevant coursework, GPA, or honors (optional)."
+      "Researched high-entropy MAX phase synthesis, developing a non-equimolar six-metal composition through powder metallurgy techniques",
+      "Synthesized 2D transition metal carbides (MXenes) from MAX phase precursors through chemical etching",
+      "Designed and fabricated a custom mortar cap to contain powder scatter during grinding, increasing sample recovery"
     ]
   }
 ];
